@@ -35,7 +35,7 @@ Currently, the main development of ARX is carried out using Eclipse as an IDE an
 
 The Ant build script features various targets that can be used to build different versions of ARX (e.g. including GUI code or not).
 
-To build the project, run the Maven install script once to register dependencies, then execute the build process via Maven CLI to compile both the ARX main code module and GUI components:
+To build the project with Maven, run install script once to register dependencies, then execute the build process via Maven CLI to compile both the ARX main code module and GUI components:
 
 ```bash
 ./install_deps.sh
