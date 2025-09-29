@@ -74,8 +74,3 @@ mvn install:install-file \
   -Dpackaging=jar
 
 echo "Dependencies installed successfully!"
-
-echo "Building with profile: $PROFILE"
-mvn clean package compile -P "$PROFILE" -Dcore=true -DskipTests
-
-echo "Build completed successfully!"
